@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a672996df6.js" crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="sign-up">
+            <form onsubmit="reset(); return false;">
+                <H1>Sign Up</H1>
+                <div class="input-field">
+                    <i class="fa-regular fa-user"></i>
+                    <input type="text" placeholder="Enter your name: " required >
+                </div>
+                
+                <div class="input-field">
+                    <i class="fa-regular fa-envelope"></i>
+                    <input type="email" id="email" placeholder="Enter your email: " required>
+                </div>
+                
+                <div class="input-field">
+                    <i class="fa-sharp fa-solid fa-lock"></i>
+                    <input type="password" id="password" placeholder="Enter your password: " required>
+                </div>
+                
+                
+                <button type="submit" onclick="clicked(event)">Sign Up!</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        function clicked(e)
+        {
+            if(confirm('Are you sure?')) {
+                e.preventDefault();
+                alert("Signed Up Successfully!")
+            }
+        }
+        </script>
+</body>
+</html>

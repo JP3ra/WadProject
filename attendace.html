@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marks Tracker</title>
+    <style>
+      /* Add some styles to the page */
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #chart-container {
+        width: 800px;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Add a container to hold the chart -->
+    <div class="container">
+      <div id="chart-container"></div>
+    </div>
+
+    <!-- Add JavaScript to create the chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script>
+      // Define the chart data
+      var chartData = {
+        labels: ["English", "Maths", "Science", "History"],
+        datasets: [
+          {
+            label: "Marks",
+            data: [80, 90, 85, 75],
+            backgroundColor: [
+              "rgba(255, 99, 132, 0.2)",
+              "rgba(54, 162, 235, 0.2)",
+              "rgba(255, 206, 86, 0.2)",
+              "rgba(75, 192, 192, 0.2)",
+            ],
+            borderColor: [
+              "rgba(255, 99, 132, 1)",
+              "rgba(54, 162, 235, 1)",
+              "rgba(255, 206, 86, 1)",
+              "rgba(75, 192, 192, 1)",
+            ],
+            borderWidth: 1,
+          },
+        ],
+      };
+
+      // Create the chart
+      var ctx = document.getElementById("chart-container").getContext("2d");
+      var myChart = new Chart(ctx, {
+        type: "bar",
+        data: chartData,
+        options: {
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+        },
+      });
+    </script>
+    <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Marks Tracker</title>
+    <style>
+      /* Add some styles to the page */
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      #chart-container {
+        width: 800px;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Add a container to hold the chart -->
+    <div class="container">
+      <div id="chart-container"></div>
+    </div>
+
+    <!-- Add JavaScript to create the chart -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+    <script>
+      // Define the chart data
+      var chartData = {
+        labels: ["English", "Maths", "Science", "History"],
+        datasets: [
+          {
+            label: "Marks",
+            data: [80, 90, 85, 75],
+            backgroundColor: [
+              "rgba(255, 99, 132, 0.2)",
+              "rgba(54, 162, 235, 0.2)",
+              "rgba(255, 206, 86, 0.2)",
+              "rgba(75, 192, 192, 0.2)",
+            ],
+            borderColor: [
+              "rgba(255, 99, 132, 1)",
+              "rgba(54, 162, 235, 1)",
+              "rgba(255, 206, 86, 1)",
+              "rgba(75, 192, 192, 1)",
+            ],
+            borderWidth: 1,
+          },
+        ],
+      };
+
+      // Create the chart
+      var ctx = document.getElementById("chart-container").getContext("2d");
+      var myChart = new Chart(ctx, {
+        type: "bar",
+        data: chartData,
+        options: {
+          scales: {
+            yAxes: [
+              {
+                ticks: {
+                  beginAtZero: true,
+                },
+              },
+            ],
+          },
+        },
+      });
+    </script>
+    <script src="path/to/chartjs/dist/chart.umd.js"></script>
+  </body>
+</html>
+
+  </body>
+</html>

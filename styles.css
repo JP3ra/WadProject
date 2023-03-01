@@ -1,0 +1,458 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+/**Header CSS**/
+
+
+.company-name{
+    margin: 0px;
+}
+ul{
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+
+.company-name{
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+
+nav ul li{
+    list-style-type:none ;
+    display: inline-block;
+    padding: 10px 25px ;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+nav ul li a:hover{
+    color: #faa41a;
+    transition: .4s;
+    
+}
+
+nav .btn{
+   background-color: black;
+   color: white;
+   font-size: 15px;
+   text-decoration: none;
+   border: 2px solid transparent;
+   padding: 10px 25px;
+   border-radius: 30px;
+   height: 20px;
+   transition: transform .4s;
+}
+
+nav .btn:hover{
+    background-color: #faa41a;
+    color: black;
+    transition:.4s;
+}
+
+/**MAIN BODY CSS**/
+
+/**BOX 1 CSS**/
+.box1{
+    height:31rem;
+    width: 100%;
+    display:flex;
+}
+
+.intro{
+    background-color: black;
+    width: 45%;
+}
+.box1 img{
+    width: 55%;
+
+}
+
+.box1 p{
+    margin-top: 95px;
+    margin-left: 10%;
+    color: white;
+}
+.box1 .heading{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+}
+
+.box1 .Info{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+    font-weight: 400;
+}
+
+.box1 a{
+    margin-left: 10%;
+    font-weight: 800;
+    position: relative;
+    top: 45px;
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.box1 a:hover{
+    transition: .4s;
+    color: #faa41a;
+}
+
+
+/**BOX 2 CSS**/
+
+.box2{
+    height: 31rem;
+    width: 100%;
+    display: flex;
+}
+
+.box2 p{
+    margin-top: 43px;
+    margin-left: 10%;
+    color: black;
+}
+
+.box2 .heading{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.box2 .info{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box2 a{
+    margin-left: 10%;
+    font-weight: 800;
+    position: relative;
+    top: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.box2 a:hover{
+    color: #faa41a;
+    transition: .4s;
+}
+.todolist{
+    background-color: white;
+    
+}
+.box2 img{
+    width: 60%;
+}
+
+/**Box 3 CSS**/
+.box3{
+    height:31rem;
+    width: 100%;
+    display: flex;
+}
+
+.box3 p{
+    color: black;
+    margin-left: 10%;
+}
+
+.box3 .heading{
+    margin-top: 90px;
+}
+.box3 .heading{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.box3 .info{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box3 a{
+    margin-left: 10%;
+    font-weight: 800;
+    position: relative;
+    top: 18px;
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+.box3 a:hover{
+    color: #faa41a;
+    transition: .4s;
+}
+.finance-manager{
+    background-color: white;
+    width: 40%;   
+}
+
+.box3 img{
+    width: 60%;
+}
+
+/**BOX 4 CSS**/
+
+.box4{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+}
+.box4 img{
+    width: 60%;
+}
+
+.box4 div{
+    width: 40%;
+}
+
+.box4 .heading{
+    margin-top: 70px;
+    margin-left: 10%;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.box4 .info{
+    margin-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box4 a{
+    margin-left: 10%;
+    font-weight: 800;
+    position: relative;
+    top: 10%;
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+.box4 a:hover{
+    color: #faa41a;
+    transition: .4s;
+}
+
+
+
+/**Box 5 css**/
+
+.box5{
+    height: 30rem;
+    width: 100%;
+    display: flex;
+}
+.box5 img{
+    width: 60%;
+}
+
+.box5 div{
+    width: 40%;
+}
+
+.box5 .heading{
+    margin-top: 70px;
+    margin-left: 10%;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.box5 .info{
+    margin-left: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.box5 a{
+    margin-left: 10%;
+    font-weight: 800;
+    position: relative;
+    top: 10%;
+    text-decoration: none;
+    color: black;
+    font-family: 'DM Sans', sans-serif;
+}
+.box5 a:hover{
+    color: #faa41a;
+    transition: .4s;
+}
+
+
+.meet-the-team{
+    background-color: #faa41a;
+    height: 40rem;
+    margin-top: 0%;
+}
+
+
+.meet-the-team p{
+    font-weight: 800;
+    font-size: 30px;
+    font-family: 'DM Sans', sans-serif;
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.row{
+    padding-top: 2%;
+    padding-left: 8%;
+    display: flex;
+}
+
+.row img{
+    height: 400px;
+    width: 400px;
+}
+
+.row .column p{
+    padding-right: 25%;
+    font-size: 20px;    
+}
+
+.insta{
+    margin-top: 5%;
+    padding-left: 34%;
+    text-decoration: none;
+    width: 100px;
+    color: blueviolet;
+    transition:  color .4s;
+}
+
+.insta:hover{
+    color: blue;
+}
+
+
+
+/**Footer CSS**/
+.footer-content{
+    background-color: black;
+    height: 30rem;
+    display: flex;
+}
+
+
+#contactUs{
+    padding-top: 3%;
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    background-color: black;
+    width: 40%;
+}
+
+.right{
+    width: 60%;
+}
+
+.left a{
+    margin-left: 12%;
+    font-weight: 800;
+    position: relative;
+    top: 8%;
+    text-decoration: none;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.left a:hover{
+    transition: .4s;
+    color: #faa41a;
+}
+
+.left .company-name{
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    width: 30%;
+    display: flex;
+    padding-top: 25%;
+    margin: auto;
+}
+span{
+    color: #faa41a;    
+}
+
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 2vw 4vw;
+    width: 90%;
+    max-width: 600px;
+    border-radius:20px;
+}
+
+
+form input, form textarea{
+    background-color: #f5f5f5;
+    border: 0;
+    margin: 10px 0px;
+    padding: 20px;
+    outline: none;
+    font-size: 12px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+form button{
+    padding: 15px;
+    background-color: #faa41a;
+    border: 0;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 150px;
+    margin: 20px auto 0;
+    border-radius: 20px;
+}
